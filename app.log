@@ -1,0 +1,46 @@
+Nov 29, 2023 6:54:32 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 7:57:53 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called for bootitle: 1984
+Nov 29, 2023 8:11:51 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called for booktitle: 1984
+Nov 29, 2023 8:40:06 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:40:24 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called for booktitle: To
+Nov 29, 2023 8:40:24 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:44:35 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:44:57 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: To Kill a Mockingbird
+Nov 29, 2023 8:45:04 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:52:07 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:54:45 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:54:51 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: 1984
+Nov 29, 2023 8:54:53 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:56:09 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:56:35 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 8:56:52 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: 1984
+Nov 29, 2023 8:57:19 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: 1984
+Nov 29, 2023 8:57:28 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: sadfa
+Nov 29, 2023 8:58:54 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: asdfas
+Nov 29, 2023 9:05:42 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 9:06:24 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Nov 29, 2023 9:06:33 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: 1984
+Nov 29, 2023 9:06:48 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: sdfasd
