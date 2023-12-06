@@ -44,3 +44,9 @@ Nov 29, 2023 9:06:33 AM rasmussen.bookmasters.LoggerUtility log
 INFO: searchForBook method called for booktitle: 1984
 Nov 29, 2023 9:06:48 AM rasmussen.bookmasters.LoggerUtility log
 INFO: searchForBook method called for booktitle: sdfasd
+Dec 06, 2023 2:48:04 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 2:56:44 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 2:57:13 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called

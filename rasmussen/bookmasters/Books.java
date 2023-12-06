@@ -30,12 +30,14 @@ public class Books {
                 String name = rs.getString("name");
                 int quantity = rs.getInt("quantity");
                 double price = rs.getDouble("price");
+                String category = rs.getString("category");
                 
                 // Print the data to the console
                 System.out.println("Book ID: " + bookId);
                 System.out.println("Name: " + name);
                 System.out.println("Quantity: " + quantity);
                 System.out.println("Price: " + price);
+                System.out.println("Category: " + category);
                 System.out.println("---------------");
               
 			}
@@ -76,12 +78,14 @@ public class Books {
                 String name = rs.getString("name");
                 int quantity = rs.getInt("quantity");
                 double price = rs.getDouble("price");
+                String category = rs.getString("category");
                 
                 // Print the data to the console
                 System.out.println("Book ID: " + bookId);
                 System.out.println("Name: " + name);
                 System.out.println("Quantity: " + quantity);
                 System.out.println("Price: " + price);
+                System.out.println("Category: " + category);
                 System.out.println();
 			}
 			
