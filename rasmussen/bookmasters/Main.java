@@ -72,9 +72,21 @@ public class Main {
 				System.out.println("Type in Book to Remove: ");
 				System.out.println("---------------");
 				kb.nextLine();
+				String bookRemoveTitle = kb.nextLine();
+				books.removeBook(bookRemoveTitle);
 				break;
 			case 'u':
-				System.out.println("Type in Book to Update: ");
+				System.out.println("Type in Book Title ");
+				System.out.println("---------------");
+				kb.nextLine();
+				String bookUpdateTitle = kb.nextLine();
+				System.out.println("Type in updated quantity: ");
+				String newQuantity = kb.nextLine();
+				System.out.println("Type in updated price: ");
+				String newPrice = kb.nextLine();
+				System.out.println("Type in updated category: ");
+				String newCategory = kb.nextLine();
+				books.updateBook(bookUpdateTitle, newQuantity, newPrice, newCategory);
 				break;
 			case 'q':
 				System.out.println("System Quit! ");

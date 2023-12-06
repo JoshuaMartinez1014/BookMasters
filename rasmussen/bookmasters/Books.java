@@ -230,7 +230,39 @@ public class Books {
 	    }
 	}
 	
-	public void updateBook() {}
+	public void updateBook(String bookUpdateTitle, String newQuantity, String newPrice, String newCategory) {
+		LoggerUtility.log(Level.INFO, "removeBook method called for bookRemoveTitle: " + bookUpdateTitle);
+		  try {
+		        conn = DriverManager.getConnection("jdbc:mysql://localhost/bookmasterscollection", "root", "Josh1234");
+
+		        String sql = "UPDATE books SET quantity = ?, price = ?, category = ? WHERE name = ?";
+		        ps = conn.prepareStatement(sql);
+
+		        // Setting the new values for the book
+		        ps.setString(1, newQuantity);
+		        ps.setString(2, newPrice);
+		        ps.setString(3, newCategory);
+		        ps.setString(4, bookUpdateTitle); // The book title to find the book to be updated
+
+		        int rowsAffected = ps.executeUpdate();
+		        if (rowsAffected > 0) {
+		            System.out.println("Book updated successfully.");
+		        } else {
+		            System.out.println("No book found with the title: " + bookUpdateTitle);
+		        }
+		    } catch (SQLException e) {
+		        System.out.println("Error executing SQL statement.");
+		        e.printStackTrace();
+		    } finally {
+		        try {
+		            if (ps != null) ps.close();
+		            if (conn != null) conn.close();
+		        } catch (SQLException e) {
+		            System.out.println("Error closing resources.");
+		            e.printStackTrace();
+		        }
+		    }
+	}
 	
 
 }
