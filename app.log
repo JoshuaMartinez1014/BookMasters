@@ -50,3 +50,49 @@ Dec 06, 2023 2:56:44 AM rasmussen.bookmasters.LoggerUtility log
 INFO: getAllBooks method called
 Dec 06, 2023 2:57:13 AM rasmussen.bookmasters.LoggerUtility log
 INFO: getAllBooks method called
+Dec 06, 2023 3:14:19 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:34:39 AM rasmussen.bookmasters.LoggerUtility log
+INFO: addBook method called for book: bookTitle: Pride and PrejudicebookQuantity: 12bookPrice: 18.99bookCategory: classic fiction
+Dec 06, 2023 3:34:39 AM rasmussen.bookmasters.LoggerUtility log
+SEVERE: error grabbing data: Statement.executeQuery() cannot issue statements that do not produce result sets.
+Dec 06, 2023 3:41:46 AM rasmussen.bookmasters.LoggerUtility log
+INFO: addBook method called for book: bookTitle: The Hunger GamesbookQuantity: 20bookPrice: 7.99bookCategory: science fiction
+Dec 06, 2023 3:41:59 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:45:33 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:45:57 AM rasmussen.bookmasters.LoggerUtility log
+INFO: addBook method called for book: bookTitle: The Hunger GamesbookQuantity: 20bookPrice: 7.88bookCategory: science fiction
+Dec 06, 2023 3:45:59 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:51:10 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForCategory method called for bookCategory: science fiction
+Dec 06, 2023 3:52:01 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForCategory method called for bookCategory: science fiction
+Dec 06, 2023 3:52:41 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:52:57 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:53:25 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: The Hunger Games
+Dec 06, 2023 3:54:06 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:54:31 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: The Hunger Games
+Dec 06, 2023 3:55:00 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:55:13 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: The Hunger Games
+Dec 06, 2023 3:55:24 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForCategory method called for bookCategory: science fiction
+Dec 06, 2023 3:55:55 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForCategory method called for bookCategory: science fiction
+Dec 06, 2023 3:56:22 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 06, 2023 3:56:41 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForCategory method called for bookCategory: safdasd
+Dec 06, 2023 3:56:45 AM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: sadfas
+Dec 06, 2023 3:56:51 AM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called

@@ -39,7 +39,6 @@ public class Main {
 			case 'a':
 				LoggerUtility.log(Level.INFO, "getAllBooks method called");
 				System.out.println("All Books: ");
-				System.out.println("---------------");
 				 books.getAllBooks();	
 				break;
 			case 's':
@@ -48,16 +47,31 @@ public class Main {
 				kb.nextLine();
 				String bookSearch = kb.nextLine();
 				books.searchForBook(bookSearch);
-				System.out.println("---------------");
 				break;
 			case 'c':
 				System.out.println("Type in Category to Search: ");
+				System.out.println("---------------");
+				kb.nextLine();
+				String bookCategorySearch = kb.nextLine();
+				books.searchForCategory(bookCategorySearch);
 				break;
 			case '+':
-				System.out.println("Type in Book to Add: ");
+				System.out.println("Type in book title");
+				System.out.println("---------------");
+				kb.nextLine();
+				String bookTitle = kb.nextLine();
+				System.out.println("Type in book quantity");
+				String bookQuantity = kb.nextLine();
+				System.out.println("Type in book price");
+				String bookPrice = kb.nextLine();
+				System.out.println("Type in book category");
+				String bookCategory = kb.nextLine();
+				books.addBook(bookTitle, bookQuantity, bookPrice, bookCategory);
 				break;
 			case '-':
 				System.out.println("Type in Book to Remove: ");
+				System.out.println("---------------");
+				kb.nextLine();
 				break;
 			case 'u':
 				System.out.println("Type in Book to Update: ");
