@@ -39,6 +39,15 @@ public class Books {
                 System.out.println("Quantity: " + quantity);
                 System.out.println("Price: " + price);
                 System.out.println("Category: " + category);
+                
+                if (quantity <= 5) {
+                	final String ANSI_RED = "\u001B[31m";
+                    final String ANSI_RESET = "\u001B[0m"; // Resets the color
+
+                    System.out.println(ANSI_RED + "Alert: Low inventory for '" + name + "'. Only " + quantity + " left in stock." + ANSI_RESET);
+                }
+
+                System.out.println();    
               
 			}
 			
@@ -88,6 +97,15 @@ public class Books {
                 System.out.println("Price: " + price);
                 System.out.println("Category: " + category);
                 System.out.println();
+                
+                if (quantity <= 5) {
+                	final String ANSI_RED = "\u001B[31m";
+                    final String ANSI_RESET = "\u001B[0m"; // Resets the color
+
+                    System.out.println(ANSI_RED + "Alert: Low inventory for '" + name + "'. Only " + quantity + " left in stock." + ANSI_RESET);
+                }
+
+                System.out.println();    
 			}
 			
 			// If book isnt found
@@ -176,6 +194,15 @@ public class Books {
                 System.out.println("Quantity: " + quantity);
                 System.out.println("Price: " + price);
                 System.out.println("Category: " + category);
+                
+                if (quantity <= 5) {
+                	final String ANSI_RED = "\u001B[31m";
+                    final String ANSI_RESET = "\u001B[0m"; // Resets the color
+
+                    System.out.println(ANSI_RED + "Alert: Low inventory for '" + name + "'. Only " + quantity + " left in stock." + ANSI_RESET);
+                }
+
+                System.out.println();    
 			}
 			
 			// If book isnt found

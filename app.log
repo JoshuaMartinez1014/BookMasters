@@ -96,3 +96,15 @@ Dec 06, 2023 3:56:45 AM rasmussen.bookmasters.LoggerUtility log
 INFO: searchForBook method called for booktitle: sadfas
 Dec 06, 2023 3:56:51 AM rasmussen.bookmasters.LoggerUtility log
 INFO: getAllBooks method called
+Dec 15, 2023 5:22:38 PM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 15, 2023 5:36:19 PM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 15, 2023 5:37:07 PM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 15, 2023 5:37:22 PM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 15, 2023 5:39:45 PM rasmussen.bookmasters.LoggerUtility log
+INFO: getAllBooks method called
+Dec 15, 2023 5:44:03 PM rasmussen.bookmasters.LoggerUtility log
+INFO: searchForBook method called for booktitle: 1984
